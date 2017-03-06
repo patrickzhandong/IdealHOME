@@ -1,5 +1,5 @@
 //
-//  FirstViewController.swift
+//  ViewController.swift
 //  IdealHOME
 //
 //  Created by Zhan Dong on 3/5/17.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class FirstViewController: UIViewController {
+class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
