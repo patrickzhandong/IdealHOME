@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2015BEF91E75014000D76959 /* Furniture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2015BEF81E75014000D76959 /* Furniture.swift */; };
+		2015BEFB1E750B9400D76959 /* FurnitureTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2015BEFA1E750B9400D76959 /* FurnitureTableViewCell.swift */; };
+		2015BEFE1E750F9000D76959 /* FurnitureTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2015BEFC1E750F9000D76959 /* FurnitureTableViewController.swift */; };
+		2015BEFF1E750F9000D76959 /* FurnitureTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2015BEFD1E750F9000D76959 /* FurnitureTableViewController.xib */; };
+		202DEC7D1E7B4824005AD6A0 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202DEC7C1E7B4824005AD6A0 /* CheckoutViewController.swift */; };
+		202DEC7F1E7B4E55005AD6A0 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202DEC7E1E7B4E55005AD6A0 /* CommunityViewController.swift */; };
 		20996FFB1E6D22BC00DB0304 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20996FFA1E6D22BC00DB0304 /* AppDelegate.swift */; };
-		20996FFD1E6D22BC00DB0304 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20996FFC1E6D22BC00DB0304 /* ViewController.swift */; };
+		20996FFD1E6D22BC00DB0304 /* FurnitureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20996FFC1E6D22BC00DB0304 /* FurnitureViewController.swift */; };
 		209970001E6D22BC00DB0304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20996FFE1E6D22BC00DB0304 /* Main.storyboard */; };
 		209970021E6D22BC00DB0304 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 209970011E6D22BC00DB0304 /* Assets.xcassets */; };
 		209970051E6D22BC00DB0304 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 209970031E6D22BC00DB0304 /* LaunchScreen.storyboard */; };
@@ -26,9 +32,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2015BEF81E75014000D76959 /* Furniture.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Furniture.swift; path = ../Furniture.swift; sourceTree = "<group>"; };
+		2015BEFA1E750B9400D76959 /* FurnitureTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FurnitureTableViewCell.swift; sourceTree = "<group>"; };
+		2015BEFC1E750F9000D76959 /* FurnitureTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FurnitureTableViewController.swift; sourceTree = "<group>"; };
+		2015BEFD1E750F9000D76959 /* FurnitureTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FurnitureTableViewController.xib; sourceTree = "<group>"; };
+		202DEC7C1E7B4824005AD6A0 /* CheckoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
+		202DEC7E1E7B4E55005AD6A0 /* CommunityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
 		20996FF71E6D22BC00DB0304 /* IdealHOME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdealHOME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20996FFA1E6D22BC00DB0304 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		20996FFC1E6D22BC00DB0304 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		20996FFC1E6D22BC00DB0304 /* FurnitureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureViewController.swift; sourceTree = "<group>"; };
 		20996FFF1E6D22BC00DB0304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		209970011E6D22BC00DB0304 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		209970041E6D22BC00DB0304 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -77,9 +89,15 @@
 		20996FF91E6D22BC00DB0304 /* IdealHOME */ = {
 			isa = PBXGroup;
 			children = (
+				2015BEF81E75014000D76959 /* Furniture.swift */,
 				20996FFA1E6D22BC00DB0304 /* AppDelegate.swift */,
-				20996FFC1E6D22BC00DB0304 /* ViewController.swift */,
+				20996FFC1E6D22BC00DB0304 /* FurnitureViewController.swift */,
+				202DEC7C1E7B4824005AD6A0 /* CheckoutViewController.swift */,
+				202DEC7E1E7B4E55005AD6A0 /* CommunityViewController.swift */,
 				20996FFE1E6D22BC00DB0304 /* Main.storyboard */,
+				2015BEFA1E750B9400D76959 /* FurnitureTableViewCell.swift */,
+				2015BEFC1E750F9000D76959 /* FurnitureTableViewController.swift */,
+				2015BEFD1E750F9000D76959 /* FurnitureTableViewController.xib */,
 				209970011E6D22BC00DB0304 /* Assets.xcassets */,
 				209970031E6D22BC00DB0304 /* LaunchScreen.storyboard */,
 				209970061E6D22BC00DB0304 /* Info.plist */,
@@ -179,6 +197,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2015BEFF1E750F9000D76959 /* FurnitureTableViewController.xib in Resources */,
 				209970051E6D22BC00DB0304 /* LaunchScreen.storyboard in Resources */,
 				209970021E6D22BC00DB0304 /* Assets.xcassets in Resources */,
 				209970001E6D22BC00DB0304 /* Main.storyboard in Resources */,
@@ -199,8 +218,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				20996FFD1E6D22BC00DB0304 /* ViewController.swift in Sources */,
+				20996FFD1E6D22BC00DB0304 /* FurnitureViewController.swift in Sources */,
+				2015BEF91E75014000D76959 /* Furniture.swift in Sources */,
+				2015BEFE1E750F9000D76959 /* FurnitureTableViewController.swift in Sources */,
+				2015BEFB1E750B9400D76959 /* FurnitureTableViewCell.swift in Sources */,
+				202DEC7D1E7B4824005AD6A0 /* CheckoutViewController.swift in Sources */,
 				20996FFB1E6D22BC00DB0304 /* AppDelegate.swift in Sources */,
+				202DEC7F1E7B4E55005AD6A0 /* CommunityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -406,6 +430,7 @@
 				209970161E6D22BC00DB0304 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		209970171E6D22BC00DB0304 /* Build configuration list for PBXNativeTarget "IdealHOMETests" */ = {
 			isa = XCConfigurationList;
@@ -414,6 +439,7 @@
 				209970191E6D22BC00DB0304 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
