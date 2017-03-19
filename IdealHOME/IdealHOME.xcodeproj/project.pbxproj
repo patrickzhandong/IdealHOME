@@ -13,6 +13,9 @@
 		2015BEFF1E750F9000D76959 /* FurnitureTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2015BEFD1E750F9000D76959 /* FurnitureTableViewController.xib */; };
 		202DEC7D1E7B4824005AD6A0 /* CheckoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202DEC7C1E7B4824005AD6A0 /* CheckoutViewController.swift */; };
 		202DEC7F1E7B4E55005AD6A0 /* CommunityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202DEC7E1E7B4E55005AD6A0 /* CommunityViewController.swift */; };
+		202DEC811E7DA962005AD6A0 /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202DEC801E7DA962005AD6A0 /* Comment.swift */; };
+		202DEC831E7DAE4D005AD6A0 /* CommentTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202DEC821E7DAE4D005AD6A0 /* CommentTableViewCell.swift */; };
+		202DEC851E7DB541005AD6A0 /* CommentTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 202DEC841E7DB541005AD6A0 /* CommentTableViewController.swift */; };
 		20996FFB1E6D22BC00DB0304 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20996FFA1E6D22BC00DB0304 /* AppDelegate.swift */; };
 		20996FFD1E6D22BC00DB0304 /* FurnitureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20996FFC1E6D22BC00DB0304 /* FurnitureViewController.swift */; };
 		209970001E6D22BC00DB0304 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20996FFE1E6D22BC00DB0304 /* Main.storyboard */; };
@@ -38,6 +41,9 @@
 		2015BEFD1E750F9000D76959 /* FurnitureTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FurnitureTableViewController.xib; sourceTree = "<group>"; };
 		202DEC7C1E7B4824005AD6A0 /* CheckoutViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CheckoutViewController.swift; sourceTree = "<group>"; };
 		202DEC7E1E7B4E55005AD6A0 /* CommunityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommunityViewController.swift; sourceTree = "<group>"; };
+		202DEC801E7DA962005AD6A0 /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
+		202DEC821E7DAE4D005AD6A0 /* CommentTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentTableViewCell.swift; sourceTree = "<group>"; };
+		202DEC841E7DB541005AD6A0 /* CommentTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentTableViewController.swift; sourceTree = "<group>"; };
 		20996FF71E6D22BC00DB0304 /* IdealHOME.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IdealHOME.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20996FFA1E6D22BC00DB0304 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20996FFC1E6D22BC00DB0304 /* FurnitureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FurnitureViewController.swift; sourceTree = "<group>"; };
@@ -95,6 +101,9 @@
 				202DEC7C1E7B4824005AD6A0 /* CheckoutViewController.swift */,
 				202DEC7E1E7B4E55005AD6A0 /* CommunityViewController.swift */,
 				20996FFE1E6D22BC00DB0304 /* Main.storyboard */,
+				202DEC821E7DAE4D005AD6A0 /* CommentTableViewCell.swift */,
+				202DEC841E7DB541005AD6A0 /* CommentTableViewController.swift */,
+				202DEC801E7DA962005AD6A0 /* Comment.swift */,
 				2015BEFA1E750B9400D76959 /* FurnitureTableViewCell.swift */,
 				2015BEFC1E750F9000D76959 /* FurnitureTableViewController.swift */,
 				2015BEFD1E750F9000D76959 /* FurnitureTableViewController.xib */,
@@ -221,9 +230,12 @@
 				20996FFD1E6D22BC00DB0304 /* FurnitureViewController.swift in Sources */,
 				2015BEF91E75014000D76959 /* Furniture.swift in Sources */,
 				2015BEFE1E750F9000D76959 /* FurnitureTableViewController.swift in Sources */,
+				202DEC811E7DA962005AD6A0 /* Comment.swift in Sources */,
+				202DEC831E7DAE4D005AD6A0 /* CommentTableViewCell.swift in Sources */,
 				2015BEFB1E750B9400D76959 /* FurnitureTableViewCell.swift in Sources */,
 				202DEC7D1E7B4824005AD6A0 /* CheckoutViewController.swift in Sources */,
 				20996FFB1E6D22BC00DB0304 /* AppDelegate.swift in Sources */,
+				202DEC851E7DB541005AD6A0 /* CommentTableViewController.swift in Sources */,
 				202DEC7F1E7B4E55005AD6A0 /* CommunityViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

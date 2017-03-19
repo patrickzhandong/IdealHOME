@@ -8,14 +8,18 @@
 
 
 import UIKit
+import os.log
 
 class CommunityViewController: UIViewController,UITextFieldDelegate, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
     //MARK: Properties
     @IBOutlet weak var nameTextField: UITextField!
     @IBOutlet weak var commentTextView: UITextView!
+    @IBOutlet weak var usernameTextField: UITextField!
     
+    @IBOutlet weak var saveButton: UIBarButtonItem!
     @IBOutlet weak var photoImageView: UIImageView!
+    var comment:Comment?
     override func viewDidLoad() {
         super.viewDidLoad()
     }
@@ -38,6 +42,28 @@ class CommunityViewController: UIViewController,UITextFieldDelegate, UIImagePick
         
         // Dismiss the picker.
         dismiss(animated: true, completion: nil)
+    }
+    //MARK: Navigation
+    @IBAction func cancel(_ sender: UIBarButtonItem) {
+         dismiss(animated: true, completion: nil)
+    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        
+        super.prepare(for: segue, sender: sender)
+        
+        // Configure the destination view controller only when the save button is pressed.
+        guard let button = sender as? UIBarButtonItem, button === saveButton else {
+            os_log("The save button was not pressed, cancelling", log: OSLog.default, type: .debug)
+            return
+        }
+        
+        let title = nameTextField.text ?? ""
+        let photo = photoImageView.image
+        let com = commentTextView.text ?? ""
+        let username = usernameTextField.text ?? ""
+        
+        // Set the meal to be passed to MealTableViewController after the unwind segue.
+        comment = Comment(title: title, photo: photo, comment: com, username:username)
     }
 
     //MARK: Actions

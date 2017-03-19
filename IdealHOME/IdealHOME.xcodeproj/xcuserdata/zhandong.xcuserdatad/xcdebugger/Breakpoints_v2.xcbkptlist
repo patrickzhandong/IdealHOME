@@ -42,11 +42,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IdealHOME/CommunityViewController.swift"
-            timestampString = "511549513.302569"
+            timestampString = "511601039.826898"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "17"
-            endingLineNumber = "17"
+            startingLineNumber = "18"
+            endingLineNumber = "18"
             landmarkName = "CommunityViewController"
             landmarkType = "3">
             <Locations>
@@ -94,6 +94,99 @@
                   startingLineNumber = "18"
                   endingLineNumber = "18"
                   offsetFromSymbolStart = "138">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IdealHOME/CommunityViewController.swift"
+            timestampString = "511601039.826898"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "CommunityViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IdealHOME.CommunityViewController.__deallocating_deinit"
+                  moduleName = "IdealHOME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhandong/Documents/workspace/Cppworkspace/Swift/IdealHOME/IdealHOME/IdealHOME/CommunityViewController.swift"
+                  timestampString = "511554369.808684"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IdealHOME.CommunityViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; IdealHOME.CommunityViewController"
+                  moduleName = "IdealHOME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhandong/Documents/workspace/Cppworkspace/Swift/IdealHOME/IdealHOME/IdealHOME/CommunityViewController.swift"
+                  timestampString = "511554369.810479"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IdealHOME.CommunityViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; IdealHOME.CommunityViewController"
+                  moduleName = "IdealHOME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhandong/Documents/workspace/Cppworkspace/Swift/IdealHOME/IdealHOME/IdealHOME/CommunityViewController.swift"
+                  timestampString = "511554369.811908"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IdealHOME.CommunityViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;IdealHOME.CommunityViewController&gt;"
+                  moduleName = "IdealHOME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhandong/Documents/workspace/Cppworkspace/Swift/IdealHOME/IdealHOME/IdealHOME/CommunityViewController.swift"
+                  timestampString = "511554369.813206"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IdealHOME.CommunityViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;IdealHOME.CommunityViewController&gt;"
+                  moduleName = "IdealHOME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhandong/Documents/workspace/Cppworkspace/Swift/IdealHOME/IdealHOME/IdealHOME/CommunityViewController.swift"
+                  timestampString = "511554369.814538"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "15"
+                  endingLineNumber = "15"
+                  offsetFromSymbolStart = "31">
                </Location>
             </Locations>
          </BreakpointContent>
