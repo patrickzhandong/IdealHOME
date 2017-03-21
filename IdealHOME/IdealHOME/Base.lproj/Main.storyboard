@@ -24,7 +24,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="zTf-Zm-Haj" id="EWP-z5-Ke6">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="89"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="DefaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="vEv-wQ-b3Q">
@@ -88,16 +88,16 @@
                                 <rect key="frame" x="16" y="70" width="154" height="89"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" alignment="top" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="CoX-oW-EOx">
-                                        <rect key="frame" x="0.0" y="0.0" width="154" height="59"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="154" height="58.5"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Furniture Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1jy-uN-pOi">
-                                                <rect key="frame" x="0.0" y="0.0" width="119" height="21"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="118.5" height="20.5"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter furniture name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9n7-M4-LUx">
-                                                <rect key="frame" x="0.0" y="29" width="154" height="30"/>
+                                                <rect key="frame" x="0.0" y="28.5" width="154" height="30"/>
                                                 <nil key="textColor"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
@@ -114,7 +114,7 @@
                                         </variation>
                                     </stackView>
                                     <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter the size here" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RbU-Ec-XEc">
-                                        <rect key="frame" x="0.0" y="59" width="142" height="30"/>
+                                        <rect key="frame" x="0.0" y="58.5" width="142" height="30"/>
                                         <nil key="textColor"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                         <textInputTraits key="textInputTraits"/>
@@ -219,7 +219,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="1fn-dy-Rc4" id="Pub-7o-pyS">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="89"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="89.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zKO-sX-VWs">
@@ -246,6 +246,7 @@
                                     <outlet property="photoImageView" destination="kvR-gj-KZo" id="qUG-Iz-Hut"/>
                                     <outlet property="titleLabel" destination="z9L-ng-MyX" id="KHv-lS-e3d"/>
                                     <outlet property="usernameLabel" destination="zKO-sX-VWs" id="Mtk-wj-7rl"/>
+                                    <segue destination="nZB-EH-hzt" kind="show" identifier="ShowDetail" id="D2a-wL-7JO"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -265,6 +266,59 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="l0R-JK-Vz3" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-711.20000000000005" y="1616.9415292353824"/>
+        </scene>
+        <!--Comment Detail View Controller-->
+        <scene sceneID="yyx-U4-RwU">
+            <objects>
+                <viewController id="nZB-EH-hzt" customClass="CommentDetailViewController" customModule="IdealHOME" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="aBh-2h-LRK"/>
+                        <viewControllerLayoutGuide type="bottom" id="vW5-cw-onI"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="YbW-zr-OY9">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="UserName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ibX-qG-IT1">
+                                <rect key="frame" x="16" y="88" width="88" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ItemName" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JXS-Px-Zq9">
+                                <rect key="frame" x="16" y="135" width="151" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Comment Detail" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="4cB-yw-kfE">
+                                <rect key="frame" x="67" y="297" width="240" height="188"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Comment" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zgA-wt-DAe">
+                                <rect key="frame" x="16" y="224" width="88" height="34"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <connections>
+                        <outlet property="commentView" destination="4cB-yw-kfE" id="Jo5-9w-Ddw"/>
+                        <outlet property="itemnameLabel" destination="JXS-Px-Zq9" id="j2p-nX-ZT4"/>
+                        <outlet property="usernameLabel" destination="ibX-qG-IT1" id="FWK-IY-cZK"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qEH-dD-t8P" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-327.19999999999999" y="2245.7271364317844"/>
         </scene>
         <!--New Comment-->
         <scene sceneID="EcX-ug-fMV">
@@ -386,6 +440,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="BmC-SS-q4U">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="rdj-9U-pMD" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tabBarController id="xtl-XW-bLZ" sceneMemberID="viewController">
                     <tabBar key="tabBar" contentMode="scaleToFill" id="MiM-er-w90">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="49"/>
@@ -397,7 +452,6 @@
                         <segue destination="paK-IX-woQ" kind="relationship" relationship="viewControllers" id="SGp-LP-0EK"/>
                     </connections>
                 </tabBarController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="rdj-9U-pMD" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-2487" y="261"/>
         </scene>

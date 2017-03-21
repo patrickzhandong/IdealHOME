@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import os.log
 
 class CommentTableViewController: UITableViewController {
     //MARK: Properties
@@ -96,15 +97,28 @@ class CommentTableViewController: UITableViewController {
     }
     */
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+       super.prepare(for: segue, sender: sender)
+        guard let commentDetailViewController = segue.destination as? CommentDetailViewController else {
+            fatalError("Unexpected destination: \(segue.destination)")
+        }
+        
+        guard let selectedCommentCell = sender as? CommentTableViewCell else {
+            fatalError("Unexpected sender: \(sender)")
+        }
+        
+        guard let indexPath = tableView.indexPath(for: selectedCommentCell) else {
+            fatalError("The selected cell is not being displayed by the table")
+        }
+        
+        let selectedComment = comments[indexPath.row]
+        commentDetailViewController.comment = selectedComment
     }
-    */
+    
     //MARK: Actions
     @IBAction func unwindToMealList(sender: UIStoryboardSegue) {
         if let sourceViewController = sender.source as? CommunityViewController, let comment = sourceViewController.comment {
