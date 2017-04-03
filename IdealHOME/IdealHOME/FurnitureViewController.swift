@@ -84,10 +84,11 @@ class FurnitureViewController: UIViewController,UITextFieldDelegate,
         let name = nameField.text ?? ""
         let photo = photoImageView.image
         let fursize = Int(sizeField.text ?? "")
+        let type = "Sofa"
         
         
         // Set the meal to be passed to MealTableViewController after the unwind segue.
-        fur = Furniture(name: name, photo: photo, fursize: fursize!)
+        fur = Furniture(name: name, photo: photo, fursize: fursize!,type : type)
     }
 
     //MARK: Actions

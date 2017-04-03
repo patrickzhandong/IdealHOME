@@ -10,7 +10,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IdealHOME/FurnitureViewController.swift"
-            timestampString = "511349702.325373"
+            timestampString = "512805989.453144"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "86"
@@ -26,11 +26,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "IdealHOME/FurnitureViewController.swift"
-            timestampString = "511349702.325373"
+            timestampString = "512805989.453144"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "87"
-            endingLineNumber = "87"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -187,6 +187,84 @@
                   startingLineNumber = "15"
                   endingLineNumber = "15"
                   offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "IdealHOME/CategoryTableViewCell.swift"
+            timestampString = "512804275.591528"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "CategoryTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IdealHOME.CategoryTableViewCell.catLabel.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "IdealHOME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhandong/Documents/workspace/Cppworkspace/Swift/IdealHOME/IdealHOME/IdealHOME/CategoryTableViewCell.swift"
+                  timestampString = "512804197.524291"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IdealHOME.CategoryTableViewCell.catLabel.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "IdealHOME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhandong/Documents/workspace/Cppworkspace/Swift/IdealHOME/IdealHOME/IdealHOME/CategoryTableViewCell.swift"
+                  timestampString = "512804197.526374"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IdealHOME.CategoryTableViewCell.init (style : __C.UITableViewCellStyle, reuseIdentifier : Swift.Optional&lt;Swift.String&gt;) -&gt; IdealHOME.CategoryTableViewCell"
+                  moduleName = "IdealHOME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhandong/Documents/workspace/Cppworkspace/Swift/IdealHOME/IdealHOME/IdealHOME/CategoryTableViewCell.swift"
+                  timestampString = "512804197.529541"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "70">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "IdealHOME.CategoryTableViewCell.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;IdealHOME.CategoryTableViewCell&gt;"
+                  moduleName = "IdealHOME"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/zhandong/Documents/workspace/Cppworkspace/Swift/IdealHOME/IdealHOME/IdealHOME/CategoryTableViewCell.swift"
+                  timestampString = "512804197.53125"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "28">
                </Location>
             </Locations>
          </BreakpointContent>

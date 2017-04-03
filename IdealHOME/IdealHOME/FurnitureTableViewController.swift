@@ -12,6 +12,7 @@ import os.log
 class FurnitureTableViewController: UITableViewController {
     //MARK: Properties
     var furnitures = [Furniture]()
+    var type: String?
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,15 +44,29 @@ class FurnitureTableViewController: UITableViewController {
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return furnitures.count
+        var count  = 0
+        for fur in furnitures {
+            if (type == nil) || (fur.type == type) {
+                count += 1
+            }
+        }
+        return count
     }
 
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cellIdentifier = "FurnitureTableViewCell"
         let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? FurnitureTableViewCell
-
-        let fur = furnitures[indexPath.row]
+        var count = 0
+        var tot = 0
+        while (count <= indexPath.row) {
+            if (type == nil) || (furnitures[tot].type == type) {
+                count += 1
+            }
+            tot += 1
+            
+        }
+        let fur = furnitures[tot-1]
         cell?.nameLabel.text = fur.name
         cell?.photoImageView.image = fur.photo
         cell?.furSize.text = String(fur.fursize)
@@ -113,7 +128,7 @@ class FurnitureTableViewController: UITableViewController {
             }
             
                 guard let selectedFurCell = sender as? FurnitureTableViewCell else {
-                    fatalError("Unexpected sender: \(sender)")
+                    fatalError("Unexpected sender: \(String(describing: sender))")
                 }
             
                 guard let indexPath = tableView.indexPath(for: selectedFurCell) else {
@@ -124,7 +139,7 @@ class FurnitureTableViewController: UITableViewController {
                 furDetailViewController.fur = selectedFur
             
             default:
-                fatalError("Unexpected Segue Identifier; \(segue.identifier)")
+                 os_log("toMenu", log: OSLog.default, type: .debug)
         }
     }
     //MARK: Actions
@@ -150,16 +165,16 @@ class FurnitureTableViewController: UITableViewController {
         let photo1 = UIImage(named: "bed")
         let photo2 = UIImage(named: "chair")
         let photo3 = UIImage(named: "coach")
-        guard let fur1 = Furniture(name: "bed", photo: photo1, fursize: 4)
+        guard let fur1 = Furniture(name: "bed", photo: photo1, fursize: 4,type: "Bed")
         else {
             fatalError("Unable to instantiate fur1")
         }
         
-        guard let fur2 = Furniture(name: "chair", photo: photo2, fursize: 5) else {
+        guard let fur2 = Furniture(name: "chair", photo: photo2, fursize: 5, type: "Sofa") else {
             fatalError("Unable to instantiate fur2")
         }
         
-        guard let fur3 = Furniture(name: "coach", photo: photo3, fursize: 3) else {
+        guard let fur3 = Furniture(name: "coach", photo: photo3, fursize: 3, type: "Coach") else {
             fatalError("Unable to instantiate fur3")
         }
         furnitures += [fur1,fur2,fur3]
